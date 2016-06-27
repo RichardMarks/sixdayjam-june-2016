@@ -1,0 +1,36 @@
+{
+  "name": "walledin",
+  "version": "1.0.0",
+  "description": "#sixdayjam June 2016",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "webpack --progress --colors"
+  },
+  "author": "Richard Marks <ccpsceo@gmail.com> (http://www.ccpssolutions.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "gulp": "^3.9.1",
+    "gulp-cached": "^1.1.0",
+    "gulp-changed": "^1.3.0",
+    "gulp-es-next": "^1.0.0",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-newer": "^1.2.0",
+    "gulp-sequence": "^0.4.5",
+    "gulp-size": "^2.1.0",
+    "gulp-util": "^3.0.7",
+    "http-server": "^0.9.0",
+    "matchdep": "^1.0.1",
+    "rimraf": "^2.5.2",
+    "source-map-loader": "^0.1.5",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.9.2"
+  }
+}
